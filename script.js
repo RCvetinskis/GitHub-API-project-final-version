@@ -49,7 +49,7 @@ function loadCardData(data){
   
   function addReposToCard(repos){
     let allRepos = document.getElementById("repos")
-     let reposSlice =repos.slice(10,20)
+     let reposSlice =repos.slice(0,10)
      console.log(reposSlice)
      reposSlice.forEach( x=>{
        let reposEl = document.createElement("a")
